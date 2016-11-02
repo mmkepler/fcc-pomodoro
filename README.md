@@ -9,6 +9,7 @@ I moved am moving this project along with all my others from codepen due to all 
 +  CSS  
 +  Javascript  
 +  JQuery  
++  Bootstrap  
 
 ###Author
 +  Melissa Kepler a.k.a. Missarachind  
