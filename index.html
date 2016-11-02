@@ -1,76 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Pomodoro Clock</title>
-  <link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
   <body>
-  <audio id="beep" src="https://crossorigin.me/http://mmkepler.com/other/Electronic_Chime-KevanGC-495939803.mp3"></audio>
-  <div id="holder" class="container text-center">
-    <div id="intro" class="text-center">
-      <p id="title">Kartoffel Timer</p>
-      <div class="row">
-        <div class="col-xs-6">
-          <p id="cycle">Cycle<br>Length</p>
-        </div>
-        <div class="col-xs-6">
-          <p id="break">Break<br>Length</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-6">
-
-          <div>
-            <button type="button" class="btn btn-xs" id="cycleAdd">+</button>
-            <h3 id="cycleNumber">25</h3>
-            <button type="button" class="btn btn-xs" id="cycleSubtract">-</button>
+    <audio id="beep" src="https://crossorigin.me/http://mmkepler.com/other/Electronic_Chime-KevanGC-495939803.mp3"></audio>
+    <div id="holder" class="container text-center">
+      <div id="intro" class="text-center">
+        <p id="title">Kartoffel Timer</p>
+        
+        <div class="row">
+          <div class="col-xs-6">
+            <p id="cycle">Cycle<br>Length</p>
           </div>
-
-        </div>
-        <div class="col-xs-6">
-          <div>
-            <button type="button" class="btn btn-xs" id="breakAdd">+</button>
-            <h3 id="breakNumber">5</h3>
-            <button type="button" class="btn btn-xs" id="breakSubtract">-</button>
+          <div class="col-xs-6">
+            <p id="break">Break<br>Length</p>
           </div>
         </div>
+        
+        <div class="row">
+          <div class="col-xs-6">
+            <div>
+              <button type="button" class="btn btn-xs" id="cycleAdd">+</button>
+              <h3 id="cycleNumber">25</h3>
+              <button type="button" class="btn btn-xs" id="cycleSubtract">-</button>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div>
+              <button type="button" class="btn btn-xs" id="breakAdd">+</button>
+              <h3 id="breakNumber">5</h3>
+              <button type="button" class="btn btn-xs" id="breakSubtract">-</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <h2 id="status"></h2>
+        </div>
+        
       </div>
 
-      <div class="row">
-        <h2 id="status"></h2>
+      <div id="potato" class="text-center">
+        <div id="kartoffel">
+          <div id="timeHold">
+            <div id="timer">
+              <p id="timeInput"></p>
+            </div>
+            <div>
+              <button class="controls btn btn-default" id="start"><strong>Start</strong></button>
+              <button class="controls btn btn-default" id="reset">Reset</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src="js/app.js"></script>
 
-    <div id="potato" class="text-center">
-      <div id="kartoffel">
-        <div id="timeHold">
-          <div id="timer">
-            <p id="timeInput"></p>
-          </div>
-          <div>
-            <button class="controls btn btn-default" id="start"><strong>Start</strong></button>
-            <button class="controls btn btn-default" id="reset">Reset</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-
-      <script src="js/app.js"></script>
-
-</body>
+  </body>
 </html>
