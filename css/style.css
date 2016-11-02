@@ -1,0 +1,80 @@
+body {
+  font-family: 'Cinzel', serif;
+  background-color: black;
+  color: white;
+  min-height: 100%;
+  font-size: 1.75em;
+  min-width: 100%;
+  text-align: center;
+}
+
+#intro {
+  margin: 20px auto 0 auto;
+  width: 400px;
+  min-height: 175px;
+}
+
+#title {
+  margin: 10px;
+  font-size: 40px;
+}
+
+#holder.container {
+  margin: 0 auto;
+}
+
+#potato {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+#kartoffel {
+  background-image: url("https://crossorigin.me/http://mmkepler.com/other/potato-576598_1280.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+
+#timeHold {
+  padding: 80px 0 0 0;
+}
+
+#timer {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 30px;
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+  border: outset 6px lightgray;
+}
+
+.controls {
+  margin: 5px 0 0 0;
+  color: black;
+  font-size: 15px;
+  padding: 4px 5px;
+  border: 2px solid #4d4d4d;
+}
+
+#cycleNumber,
+#breakNumber {
+  display: inline;
+}
+
+button {
+  background-color: gray;
+}
+
+#timeInput {
+  color: black;
+  padding: 5px;
+  font-size: 25px;
+}
