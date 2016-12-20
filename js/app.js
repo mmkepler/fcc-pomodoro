@@ -56,8 +56,8 @@ $(document).ready(function() {
         //cycle timer
         clock.counter = setInterval(clock.func.timer, 1000);
         //multiply numbers by 60 for proper time
-        clock.cycleCount *= 60;
-        clock.breakCount *= 60;
+        //clock.cycleCount *= 60;
+        //clock.breakCount *= 60;
         //add 1 so original number is displayed at start
         clock.cycleCount += 1;
         clock.breakCount += 1;
