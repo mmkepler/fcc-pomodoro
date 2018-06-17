@@ -18,4 +18,4 @@ I named it Kartoffel Timer, after the german word for potato. I like potatoes be
 +  Coding Tutorials 360 - for showing how to work with javascript time when all other tutorials were falling short!  
 +   Pixabay.com for having a free awesome potato image
 
-### Project can be seen here: https://missarachnid.github.io/fcc-pomodoro/
+### Project can be seen [here:](https://missarachnid.github.io/fcc-pomodoro/)
